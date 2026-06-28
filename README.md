@@ -1,30 +1,145 @@
-## Get Started
+# 🌦️ Weather Mobile Application
 
-install dev dependencies
+A mobile weather application built using React Native and Expo. The app allows users to view real-time weather information using WeatherAPI and provides a clean, user-friendly interface for checking current weather conditions.
 
-### `npm install` or `yarn install`
+---
 
-## Then
+## 📌 Overview
 
-go to https://www.weatherapi.com . create an account and get the api key then use that api key in constants/index.js file
+This project is a hybrid mobile application developed to display weather information in a simple and interactive way. It uses WeatherAPI to fetch weather data and presents it through a React Native interface.
 
-## Then
+---
 
-Run The app
+## ✨ Features
 
-### `npm start` or `yarn start`
+- View real-time weather information
+- Search weather by location
+- Display current temperature and weather condition
+- Show weather-related icons and visuals
+- User-friendly mobile interface
+- API integration using WeatherAPI
 
-Runs your app in development mode.
+---
 
-Open it in the [Expo app](https://expo.io) on your phone to view it. It will reload if you save edits to your files, and you will see build errors and logs in the terminal.
+## 🛠️ Technology Stack
 
-#### `npm run ios` or `yarn run ios`
+- React Native
+- Expo
+- JavaScript
+- WeatherAPI
+- Tailwind CSS / NativeWind
+- Node.js / npm
 
-Like `npm start` / `yarn start`, but also attempts to open your app in the iOS Simulator if you're on a Mac and have it installed.
+---
 
-#### `npm run android` or `yarn run android`
+## 📂 Project Structure
 
-Like `npm start` / `yarn start`, but also attempts to open your app on a connected Android device or emulator. Requires an installation of Android build tools (see [React Native docs](https://facebook.github.io/react-native/docs/getting-started.html) for detailed setup).
+```text
+Weather-Mobile-Application
+│
+├── api/
+├── assets/
+├── constants/
+├── navigation/
+├── screens/
+├── theme/
+├── utils/
+├── App.js
+├── app.json
+├── babel.config.js
+├── package.json
+├── tailwind.config.js
+└── README.md
+```
 
+---
 
+## 🚀 Installation & Setup
+
+### 1. Clone the repository
+
+```bash
+git clone https://github.com/FathiMariyam/Weather-Mobile-Application.git
+```
+
+### 2. Navigate to the project folder
+
+```bash
+cd Weather-Mobile-Application
+```
+
+### 3. Install dependencies
+
+```bash
+npm install
+```
+
+or
+
+```bash
+yarn install
+```
+
+### 4. Get an API key
+
+Create a free account at WeatherAPI and get your API key.
+
+### 5. Add your API key
+
+Open:
+
+```text
+constants/index.js
+```
+
+Add your WeatherAPI key there.
+
+### 6. Run the application
+
+```bash
+npm start
+```
+
+or
+
+```bash
+yarn start
+```
+
+Then open the app using Expo Go on your mobile device.
+
+---
+
+## 🔐 Important Note
+
+Do not expose your real API key publicly. For better security, store API keys using environment variables in future improvements.
+
+---
+
+## 📖 Future Improvements
+
+- Add 7-day weather forecast
+- Add hourly forecast
+- Use device location to detect current weather
+- Improve UI animations
+- Add dark mode
+- Store recently searched locations
+- Improve API key security using environment variables
+
+---
+
+## 👩‍💻 Author
+
+**Fathima Mariyam**  
+B.Sc. (Hons.) Information Technology Graduate  
+University of Kelaniya
+
+- GitHub: https://github.com/FathiMariyam
+- LinkedIn: https://www.linkedin.com/in/fathima-mariyam
+
+---
+
+## 📄 License
+
+This project is developed for educational and learning purposes.
 
